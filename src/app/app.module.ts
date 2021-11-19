@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { APP_ROUTING } from './app.routes'
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule, 
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
